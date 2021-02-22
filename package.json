@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "json:server": "json-server --watch db.json",
+    "json:server:3005": "json-server --watch db.json --port 3005",
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db"
   },
   "private": true,
   "dependencies": {
